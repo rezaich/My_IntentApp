@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btMoveActivty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move_activty"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btMoveActivtyData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Move_with_data"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btMoveActivtyObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Move_With_Object"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btDialNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_number"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btMoveForResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move_for_result"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RESULT"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+</LinearLayout>
